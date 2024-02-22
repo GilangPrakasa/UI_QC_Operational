@@ -1,0 +1,8 @@
+IDC: 056AF
+TKN: 4-WZKgT6ANQQrT
+ESP: 5.9.5-beta.4
+ATG: 1.4.1
+PCB: 4.2.1
+RTC: 1 0 0
+SSID: AksesPoin_eFishery
+PWM: 10,20,30
