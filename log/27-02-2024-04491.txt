@@ -1,0 +1,47 @@
+****27-02-2024***** STARTING QC ******19:34:37*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 04491
+****27-02-2024***** STARTING QC ******19:37:24*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 04491
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.2.1  E: 4.2.1
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+============= START TEST READ CURRENT =============
+Dosing current in range   : 0.1
+Thrower current in range  : 0.0
+============ READ CURRENT TEST SUCCESS ============
+READ CURRENT SUCCESS
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+============== START TEST RSSI LEVEL ==============
+AksesPoin_eFishery: -31dBm (Excellent)    >= -70 dBm
+============ RSSI LEVEL TEST SUCCESS ! ============
+RSSI LEVEL SUCCESS
+========== START TEST FEEDING SCHEDULE ============
+Time Stamp : True   R: 1709037568  E: 1709037568
+Amount : True   R: 1000  E: 1000
+Trigger : True   R: 1  E: 1
+=========== TEST FEEDING SCHEDULE DONE ============
+FEED SCHEDULE SUCCESS
+============== RESET EVENT LOG DONE ===============
+============= START TEST WDT FUNCTION =============
+============= PLEASE MONITORING COBOX =============
+================ UNTIL RESTARTING =================
+======== TEST SUCCESS IF COBOX RESTARTING =========
+WDT FUNCTION SUCCESS
+===================== CHECK LOG ===================
+RUN_BUTTON_PRESSED true | count 2
+DISP_MENU_BUTTON_PRESSED true | count 2
+DISP_MINUS_BUTTON_PRESSED true | count 2
+DISP_PLUS_BUTTON_PRESSED true | count 2
+DISP_ENTER_BUTTON_PRESSED true | count 2
+================== CHECK LOG DONE =================
+EVENT LOG SUCCESS

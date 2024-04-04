@@ -1,0 +1,97 @@
+****27-02-2024***** STARTING QC ******17:43:10*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 05E76
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.2.1  E: 4.2.1
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+============= START TEST READ CURRENT =============
+Dosing current in range   : 0.1
+Thrower current in range  : 0.0
+============ READ CURRENT TEST SUCCESS ============
+READ CURRENT SUCCESS
+=========== TEST FEED THROWER DISTANCE ============
+Set current failed!
+{"success":false,"status":"set limit failed"}
+********************** CLEAR **********************
+****27-02-2024***** STARTING QC ******17:47:01*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 05E76
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 10 E: 10
+PWM MATCH R: 20 E: 20
+Set current failed!
+{"success":false,"status":"set limit failed"}
+PWM MATCH R: 30 E: 30
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+****27-02-2024***** STARTING QC ******17:48:18*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 05E76
+********************** CLEAR **********************
+****27-02-2024***** STARTING QC ******17:48:29*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 05E76
+=========== TEST FEED THROWER DISTANCE ============
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+********************** CLEAR **********************
+****27-02-2024***** STARTING QC ******17:49:22*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 05E76
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+********************** CLEAR **********************
+****27-02-2024***** STARTING QC ******17:50:41*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 05E76
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+============== START TEST RSSI LEVEL ==============
+================ SSID NOT FOUND !! ================
+============ PLEASE CHECK ACCESS POINT ============
+========== START TEST FEEDING SCHEDULE ============
+Time Stamp : True   R: 1709031129  E: 1709031129
+Amount : True   R: 1000  E: 1000
+Trigger : True   R: 1  E: 1
+=========== TEST FEEDING SCHEDULE DONE ============
+FEED SCHEDULE SUCCESS
+============== RESET EVENT LOG DONE ===============
+============= START TEST WDT FUNCTION =============
+============= PLEASE MONITORING COBOX =============
+================ UNTIL RESTARTING =================
+======== TEST SUCCESS IF COBOX RESTARTING =========
+WDT FUNCTION SUCCESS
+===================== CHECK LOG ===================
+RUN_BUTTON_PRESSED true | count 2
+DISP_MENU_BUTTON_PRESSED true | count 2
+DISP_MINUS_BUTTON_PRESSED true | count 2
+DISP_PLUS_BUTTON_PRESSED true | count 2
+DISP_ENTER_BUTTON_PRESSED true | count 2
+================== CHECK LOG DONE =================
+EVENT LOG SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 1.2
+Thrower Max = 8.8
+D = 1.9
+T = 9.8
+Dosing Overcurrent = 1.9
+Thrower Overcurrent = 9.8
+=============== SETTING RESULT DONE ===============
+DATA SAVE 05E76
+Elapsed time: 91.71 minute
+******************** ENDED QC  ********************
+

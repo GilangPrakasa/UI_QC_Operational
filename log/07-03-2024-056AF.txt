@@ -1,0 +1,259 @@
+****07-03-2024***** STARTING QC ******17:05:35*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : False  R: 4.1.2  E: 4.2.1
+RTC : True   R: 1 0 0  E: 1 0 0
+================= TEST SITE FAILED ================
+****07-03-2024***** STARTING QC ******17:05:57*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******17:06:01*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.1.2  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 0.8
+Thrower Max = 7.5
+D = 1.2000000000000002
+T = 8.5
+Dosing Overcurrent = 1.2
+Thrower Overcurrent = 8.5
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******17:27:33*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.1.2  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 1.0
+Thrower Max = 7.5
+D = 1.7
+T = 8.5
+Dosing Overcurrent = 1.7
+Thrower Overcurrent = 8.5
+=============== SETTING RESULT DONE ===============
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******17:43:25*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== SETTING RESULT =================
+Dosing Max = 1.1
+Thrower Max = 7.1
+D = 1.8
+T = 8.1
+Dosing Overcurrent = 1.8
+Thrower Overcurrent = 8.1
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******17:58:15*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.1.2  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 0.3
+Thrower Max = 0.0
+T = 0.4
+D = 0.7
+Dosing Overcurrent = 0.7
+Thrower Overcurrent = 0.4
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******17:59:01*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== SETTING RESULT =================
+Dosing Max = 1.0
+Thrower Max = 7.4
+D = 1.7
+T = 8.4
+Dosing Overcurrent = 1.7
+Thrower Overcurrent = 8.4
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******18:09:59*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.1.2  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 0.5
+Thrower Max = 0.2
+T = 0.6000000000000001
+D = 0.9
+Dosing Overcurrent = 0.9
+Thrower Overcurrent = 0.6
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******18:13:29*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== SETTING RESULT =================
+Dosing Max = 1.1
+Thrower Max = 7.5
+D = 1.8
+T = 8.5
+Dosing Overcurrent = 1.8
+Thrower Overcurrent = 8.5
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******18:29:31*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.1.2  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 1.2
+Thrower Max = 7.8
+D = 1.9
+T = 8.8
+Dosing Overcurrent = 1.9
+Thrower Overcurrent = 8.8
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******18:41:49*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.1.2  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 0.0
+Thrower Max = 0.2
+T = 0.6000000000000001
+D = 0.4
+Dosing Overcurrent = 0.4
+Thrower Overcurrent = 0.6
+=============== SETTING RESULT DONE ===============
+================== SETTING RESULT =================
+Dosing Max = 0.9
+Thrower Max = 7.2
+D = 1.3
+T = 8.2
+Dosing Overcurrent = 1.3
+Thrower Overcurrent = 8.2
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******18:51:43*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******18:55:53*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.1.2  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+============= START TEST READ CURRENT =============
+Dosing current in range   : 0.2
+Thrower current in range  : 0.0
+============ READ CURRENT TEST SUCCESS ============
+READ CURRENT SUCCESS
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+============== START TEST RSSI LEVEL ==============
+================ SSID NOT FOUND !! ================
+============ PLEASE CHECK ACCESS POINT ============
+========== START TEST FEEDING SCHEDULE ============
+Time Stamp : True   R: 1709812643  E: 1709812643
+Amount : True   R: 1000  E: 1000
+Trigger : True   R: 1  E: 1
+=========== TEST FEEDING SCHEDULE DONE ============
+FEED SCHEDULE SUCCESS
+============== RESET EVENT LOG DONE ===============
+============= START TEST WDT FUNCTION =============
+============= PLEASE MONITORING COBOX =============
+================ UNTIL RESTARTING =================
+======== TEST SUCCESS IF COBOX RESTARTING =========
+WDT FUNCTION SUCCESS
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******19:00:34*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== SETTING RESULT =================
+Dosing Max = 1.1
+Thrower Max = 6.9
+D = 1.8
+T = 7.9
+Dosing Overcurrent = 1.8
+Thrower Overcurrent = 7.9
+=============== SETTING RESULT DONE ===============
+****07-03-2024***** STARTING QC ******19:07:27*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******19:10:38*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : False  R: 4.2.1  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================= TEST SITE FAILED ================
+********************** CLEAR **********************
+****07-03-2024***** STARTING QC ******19:10:52*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.2.1  E: 4.2.1
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 0.9
+Thrower Max = 7.7
+D = 1.3
+T = 8.7
+Dosing Overcurrent = 1.3
+Thrower Overcurrent = 8.7
+=============== SETTING RESULT DONE ===============

@@ -1,0 +1,50 @@
+****27-02-2024***** STARTING QC ******14:48:46*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.2.1  E: 4.2.1
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+============= START TEST READ CURRENT =============
+Dosing current not in range   : 0.6
+Thrower current not in range  : 7.8
+============= READ CURRENT TEST FAILED ============
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 10 E: 10
+PWM MATCH R: 20 E: 20
+PWM MATCH R: 30 E: 30
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+********************** CLEAR **********************
+****27-02-2024***** STARTING QC ******14:51:18*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+****27-02-2024***** STARTING QC ******14:51:34*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 056AF
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+============== START TEST RSSI LEVEL ==============
+AksesPoin_eFishery: -50dBm (Excellent)    >= -70 dBm
+============ RSSI LEVEL TEST SUCCESS ! ============
+RSSI LEVEL SUCCESS
+========== START TEST FEEDING SCHEDULE ============
+Time Stamp : True   R: 1709020351  E: 1709020351
+Amount : True   R: 1000  E: 1000
+Trigger : True   R: 1  E: 1
+=========== TEST FEEDING SCHEDULE DONE ============
+FEED SCHEDULE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 0.6
+Thrower Max = 7.9
+D = 1.0
+T = 8.9
+Dosing Overcurrent = 1.0
+Thrower Overcurrent = 8.9
+=============== SETTING RESULT DONE ===============

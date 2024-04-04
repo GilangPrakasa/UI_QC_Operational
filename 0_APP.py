@@ -120,7 +120,10 @@ class App(customtkinter.CTk):
 
         self.exe_btn = customtkinter.CTkButton(self.FR1, width=200, text="EXECUTE", command=handling_mode)
         self.exe_btn.grid(row=6, column=0, padx=10, pady=10)
-        self.exe_btn.configure(fg_color="red")
+        self.exe_btn.configure(fg_color="green")
+
+        self.label = customtkinter.CTkLabel(self.FR1, text="mahesa.gilang@efishery.com", font=customtkinter.CTkFont(size=15))
+        self.label.grid(row=7, column=0, padx=0, pady=0)
 
         # self.stop_btn = customtkinter.CTkButton(self.FR1, width=50, text="DEBUG", command=button_click)
         # self.stop_btn.grid(row=7, column=0, padx=10, pady=10)
@@ -150,38 +153,38 @@ class App(customtkinter.CTk):
 
         self.btn_1 = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="TEST SITE", command=test_site)
         self.btn_1.grid(row=1, column=0, padx=10, pady=10)
-        self.btn_1.configure(fg_color="red")
+        self.btn_1.configure(fg_color="green")
         
         self.btn_2 = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="EMPTY CURRENT", command=read_current)
         self.btn_2.grid(row=2, column=0, padx=10, pady=10)
-        self.btn_2.configure(fg_color="red")
+        self.btn_2.configure(fg_color="green")
 
         self.btn_3 = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="THROWER PWM", command=thrower_distance)
         self.btn_3.grid(row=3, column=0, padx=10, pady=10)
-        self.btn_3.configure(fg_color="red")
+        self.btn_3.configure(fg_color="green")
         
         self.btn_4 = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="RSSI LEVEL", command=rssi_level)
         self.btn_4.grid(row=4, column=0, padx=10, pady=10)
-        self.btn_4.configure(fg_color="red")
+        self.btn_4.configure(fg_color="green")
         
         self.btn_5 = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="FEED SCHEDULE", command=feed_schedule)
         self.btn_5.grid(row=5, column=0, padx=10, pady=10)
-        self.btn_5.configure(fg_color="red")
+        self.btn_5.configure(fg_color="green")
         
         self.btn_6 = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="WDT FUNCTION", command=wdt_function)
         self.btn_6.grid(row=6, column=0, padx=10, pady=10)
-        self.btn_6.configure(fg_color="red")
+        self.btn_6.configure(fg_color="green")
 
         self.btn_7 = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="CHECK LOG", command=get_log)
         self.btn_7.grid(row=7, column=0, padx=10, pady=10)
-        self.btn_7.configure(fg_color="red")
+        self.btn_7.configure(fg_color="green")
 
         self.btn_8 = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="STALL PREP", command=test_stall)
         self.btn_8.grid(row=8, column=0, padx=10, pady=10)
-        self.btn_8.configure(fg_color="red")
+        self.btn_8.configure(fg_color="green")
 
         self.save_btn = customtkinter.CTkButton(self.FR3, width=130, corner_radius=20, text="SAVE", command=save_result)
-        self.save_btn.grid(row=10, column=0, padx=10, pady=10)
+        self.save_btn.grid(row=9, column=0, padx=10, pady=10)
 
         self.orig_color = self.save_btn.cget("fg_color")
 
@@ -195,11 +198,11 @@ class App(customtkinter.CTk):
         self.label.grid(row=0, column=0, columnspan=2, padx=10, pady=10)
 
         self.switch_var = customtkinter.StringVar(value="FAIL")
-        self.switch_var = customtkinter.CTkCheckBox(self.FR4, text="POWER SWITCH", text_color="yellow", variable=self.switch_var, onvalue="PASS", offvalue="FAIL")
+        self.switch_var = customtkinter.CTkCheckBox(self.FR4, text="POWER SWITCH", variable=self.switch_var, onvalue="PASS", offvalue="FAIL")
         self.switch_var.grid(row=1, column=0, padx=10, pady=10, sticky="w")
 
         self.led_var = customtkinter.StringVar(value="FAIL")
-        self.led_var = customtkinter.CTkCheckBox(self.FR4, text="LED INDICATOR", text_color="yellow", variable=self.led_var, onvalue="PASS", offvalue="FAIL")
+        self.led_var = customtkinter.CTkCheckBox(self.FR4, text="LED INDICATOR", variable=self.led_var, onvalue="PASS", offvalue="FAIL")
         self.led_var.grid(row=2, column=0, padx=10, pady=10, sticky="w")
 
         self.test_site_var = customtkinter.StringVar(value="FAIL")
@@ -227,7 +230,7 @@ class App(customtkinter.CTk):
         self.wdt_var.grid(row=8, column=0, padx=10, pady=10, sticky="w")
 
         self.rtc_var = customtkinter.StringVar(value="FAIL")
-        self.rtc_var = customtkinter.CTkCheckBox(self.FR4, text="RTC > 3.1V", text_color="yellow", variable=self.rtc_var, onvalue="PASS", offvalue="FAIL")
+        self.rtc_var = customtkinter.CTkCheckBox(self.FR4, text="RTC > 3.1V", variable=self.rtc_var, onvalue="PASS", offvalue="FAIL")
         self.rtc_var.grid(row=1, column=1, padx=10, pady=10, sticky="w")
 
         self.btn_run_var = customtkinter.StringVar(value="FAIL")
@@ -251,11 +254,11 @@ class App(customtkinter.CTk):
         self.btn_ok_var.grid(row=6, column=1, padx=10, pady=10, sticky="w")
 
         self.thrower_var = customtkinter.StringVar(value="FAIL")
-        self.thrower_var = customtkinter.CTkCheckBox(self.FR4, text="THROWER STALL", text_color="yellow", variable=self.thrower_var, onvalue="PASS", offvalue="FAIL")
+        self.thrower_var = customtkinter.CTkCheckBox(self.FR4, text="THROWER STALL", variable=self.thrower_var, onvalue="PASS", offvalue="FAIL")
         self.thrower_var.grid(row=7, column=1, padx=10, pady=10, sticky="w")
 
         self.dosing_var = customtkinter.StringVar(value="FAIL")
-        self.dosing_var = customtkinter.CTkCheckBox(self.FR4, text="DOSING STALL", text_color="yellow", variable=self.dosing_var, onvalue="PASS", offvalue="FAIL")
+        self.dosing_var = customtkinter.CTkCheckBox(self.FR4, text="DOSING STALL", variable=self.dosing_var, onvalue="PASS", offvalue="FAIL")
         self.dosing_var.grid(row=8, column=1, padx=10, pady=10, sticky="w")
 
         self.label = customtkinter.CTkLabel(self.FR4, text="RESULT                  :", font=customtkinter.CTkFont(size=15, weight="bold"))

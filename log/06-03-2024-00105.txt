@@ -1,0 +1,132 @@
+****06-03-2024***** STARTING QC ******12:05:21*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : False  R: 4.1.2  E: 4.2.1
+RTC : True   R: 1 0 0  E: 1 0 0
+================= TEST SITE FAILED ================
+********************** CLEAR **********************
+****06-03-2024***** STARTING QC ******12:05:52*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+================== START TEST SITE  ===============
+ESP : True   R: 5.9.5-beta.4  E: 5.9.5-beta.4
+ATG : True   R: 1.4.1  E: 1.4.1
+PCB : True   R: 4.1.2  E: 4.1.2
+RTC : True   R: 1 0 0  E: 1 0 0
+================== TEST SITE DONE =================
+TEST SITE SUCCESS
+============= START TEST READ CURRENT =============
+Dosing current in range   : 0.1
+Thrower current in range  : 0.0
+============ READ CURRENT TEST SUCCESS ============
+READ CURRENT SUCCESS
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 10 E: 10
+PWM MATCH R: 20 E: 20
+PWM MATCH R: 30 E: 30
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+********************** CLEAR **********************
+****06-03-2024***** STARTING QC ******12:08:07*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+=========== TEST FEED THROWER DISTANCE ============
+PWM MATCH R: 30 E: 30
+PWM MATCH R: 70 E: 70
+PWM MATCH R: 100 E: 100
+========= FEED THROWER DISTANCE TEST DONE =========
+============ PLEASE UNPLUG CABLE MOTOR ============
+THROWER DISTANCE SUCCESS
+============== START TEST RSSI LEVEL ==============
+AksesPoin_eFishery: -54dBm (Very Good)    >= -70 dBm
+============ RSSI LEVEL TEST SUCCESS ! ============
+RSSI LEVEL SUCCESS
+========== START TEST FEEDING SCHEDULE ============
+Time Stamp : True   R: 1709701738  E: 1709701738
+Amount : True   R: 1000  E: 1000
+Trigger : True   R: 1  E: 1
+=========== TEST FEEDING SCHEDULE DONE ============
+FEED SCHEDULE SUCCESS
+================== SETTING RESULT =================
+Dosing Max = 0.9
+Thrower Max = 5.2
+D = 1.3
+T = 6.2
+Dosing Overcurrent = 1.3
+Thrower Overcurrent = 6.2
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****06-03-2024***** STARTING QC ******12:13:49*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+================== SETTING RESULT =================
+Dosing Max = 1.0
+Thrower Max = 7.3
+D = 1.7
+T = 8.3
+Dosing Overcurrent = 1.7
+Thrower Overcurrent = 8.3
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****06-03-2024***** STARTING QC ******12:16:36*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+================== SETTING RESULT =================
+Dosing Max = 1.0
+Thrower Max = 7.3
+D = 1.7
+T = 8.3
+Dosing Overcurrent = 1.7
+Thrower Overcurrent = 8.3
+=============== SETTING RESULT DONE ===============
+================== SETTING RESULT =================
+Dosing Max = 1.3
+Thrower Max = 7.3
+D = 2.0
+T = 8.3
+Dosing Overcurrent = 2.0
+Thrower Overcurrent = 8.3
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****06-03-2024***** STARTING QC ******13:44:08*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+================== SETTING RESULT =================
+Dosing Max = 1.2
+Thrower Max = 6.6
+D = 1.9
+T = 7.6
+Dosing Overcurrent = 1.9
+Thrower Overcurrent = 7.6
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****06-03-2024***** STARTING QC ******13:52:47*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+================== SETTING RESULT =================
+Dosing Max = 0.7
+Thrower Max = 4.8
+D = 1.1
+T = 5.8
+Dosing Overcurrent = 1.1
+Thrower Overcurrent = 5.8
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****06-03-2024***** STARTING QC ******13:55:43*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+================== SETTING RESULT =================
+Dosing Max = 1.1
+Thrower Max = 7.6
+D = 1.8
+T = 8.6
+Dosing Overcurrent = 1.8
+Thrower Overcurrent = 8.6
+=============== SETTING RESULT DONE ===============
+********************** CLEAR **********************
+****06-03-2024***** STARTING QC ******14:07:21*****
+MODE SA, INSPECTOR = Gilang, EQ CODE = 00105
+================== SETTING RESULT =================
+Dosing Max = 1.0
+Thrower Max = 7.1
+D = 1.7
+T = 8.1
+Dosing Overcurrent = 1.7
+Thrower Overcurrent = 8.1
+=============== SETTING RESULT DONE ===============
